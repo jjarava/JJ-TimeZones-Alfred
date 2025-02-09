@@ -4,6 +4,8 @@
 <dict>
 	<key>bundleid</key>
 	<string>carlosnz.timezones2</string>
+	<key>category</key>
+	<string>Productivity</string>
 	<key>connections</key>
 	<dict>
 		<key>16D7BCC0-AD0A-49B7-98F2-5FC3444910B1</key>
@@ -1203,7 +1205,7 @@
 				<key>escaping</key>
 				<integer>0</integer>
 				<key>script</key>
-				<string>./oneUpdater.sh 0</string>
+				<string>./oneUpdater.sh 30</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
 				<key>scriptfile</key>
@@ -1221,7 +1223,7 @@
 	</array>
 	<key>readme</key>
 	<string># TimeZones
-Latst update: 25 February 2024
+Latst update: 18 April 2024
 
 # USAGE
 
@@ -1248,6 +1250,11 @@ Latst update: 25 February 2024
 # CHANGELOG
 
 All issues tracked on GitHub https://github.com/jaroslawhartman/TimeZones-Alfred/issues
+
+## 2.61
+18 April 2024
+
+* Added support for abbreviated timezones #61
 
 ## 2.60
 25 February 2024
@@ -1697,7 +1704,7 @@ Fixes after google deprecating their map APIs.
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
-	<string>2.60</string>
+	<string>2.61</string>
 	<key>webaddress</key>
 	<string>https://jhartman.pl/tag/time-zones/</string>
 </dict>
